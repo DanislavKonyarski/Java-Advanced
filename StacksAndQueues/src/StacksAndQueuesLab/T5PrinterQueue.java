@@ -12,7 +12,7 @@ public class T5PrinterQueue {
         Deque<String> printFilesDeq = new ArrayDeque<>();
         while (!input.equals("print")){
             if (!input.equals("cancel")){
-                printFilesDeq.add(input);
+                printFilesDeq.offer(input);
             }else {
                 if (printFilesDeq.size()==0){
                     System.out.println("Printer is on standby");
