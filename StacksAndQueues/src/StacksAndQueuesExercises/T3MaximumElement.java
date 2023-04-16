@@ -1,3 +1,5 @@
+package StacksAndQueuesExercises;
+
 import java.util.*;
 
 public class T3MaximumElement {
