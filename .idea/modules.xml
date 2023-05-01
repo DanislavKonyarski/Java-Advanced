@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Advanced.iml" filepath="$PROJECT_DIR$/.idea/Java-Advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultidimensionalArrays/MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/MultidimensionalArrays/MultidimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" filepath="$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
     </modules>
   </component>
