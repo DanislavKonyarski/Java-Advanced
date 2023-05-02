@@ -2,7 +2,7 @@ package SetsAndMapsAdvancedLab;
 
 import java.util.*;
 
-public class T5AveragStudentsGrades {
+public class T5AverageStudentsGrades {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int countInput = Integer.parseInt(scanner.nextLine());
