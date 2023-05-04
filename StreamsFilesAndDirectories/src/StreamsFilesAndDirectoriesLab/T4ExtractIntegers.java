@@ -13,8 +13,7 @@ public class T4ExtractIntegers {
         PrintWriter printWriter = new PrintWriter("StreamsFilesAndDirectories/resources/04.ExtractIntegersOutput.txt");
         while (scanner.hasNext()){
             if (scanner.hasNextInt()){
-                int a = scanner.nextInt();
-                printWriter.println(a);
+                printWriter.println(scanner.nextInt());
             }
             scanner.next();
         }
