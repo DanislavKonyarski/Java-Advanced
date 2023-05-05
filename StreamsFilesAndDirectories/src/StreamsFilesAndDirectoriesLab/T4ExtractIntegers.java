@@ -19,6 +19,5 @@ public class T4ExtractIntegers {
         }
         scanner.close();
         printWriter.close();
-
     }
 }
