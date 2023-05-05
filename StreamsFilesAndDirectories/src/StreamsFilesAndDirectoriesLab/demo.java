@@ -11,6 +11,7 @@ public class demo {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
         InputStream inputStream = new FileInputStream(path);
         PrintWriter printWriter = new PrintWriter(path);
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream));
     }
 }
 
