@@ -3,7 +3,7 @@ package GenericsExercises;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Box<T> {
+public class Box<T extends Comparable> {
     private List<T> element;
 
     public Box() {
@@ -23,6 +23,14 @@ public class Box<T> {
     }
     public int size (){
         return element.size();
+    }
+    public void swap (int firstIndex, int secondIndex){
+        T currentElement = element.get(firstIndex);
+        element.set(firstIndex,element.get(secondIndex));
+        element.set(secondIndex,currentElement);
+    }
+    public int greater (T elementForCompare){
+        return (int) this.element.stream().filter(e -> e.compareTo(elementForCompare)>0).count();
     }
 
     @Override
