@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DefiningClasses/DefiningClasses.iml" filepath="$PROJECT_DIR$/DefiningClasses/DefiningClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" filepath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Advanced.iml" filepath="$PROJECT_DIR$/.idea/Java-Advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultidimensionalArrays/MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/MultidimensionalArrays/MultidimensionalArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" filepath="$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" />
