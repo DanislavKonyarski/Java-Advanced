@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" filepath="$PROJECT_DIR$/SetsAndMapsAdvanced/SetsAndMapsAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/StreamsFilesAndDirectories/StreamsFilesAndDirectories.iml" filepath="$PROJECT_DIR$/StreamsFilesAndDirectories/StreamsFilesAndDirectories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam/exam.iml" filepath="$PROJECT_DIR$/Exam/exam.iml" />
     </modules>
   </component>
 </project>
