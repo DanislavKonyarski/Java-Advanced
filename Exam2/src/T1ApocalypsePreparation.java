@@ -44,8 +44,7 @@ public class T1ApocalypsePreparation {
         }
 
 
-        List<Map.Entry<String, Integer>> orderedItems =
-                new ArrayList<>(items.entrySet());
+        List<Map.Entry<String, Integer>> orderedItems = new ArrayList<>(items.entrySet());
         Collections.sort(orderedItems,
                 Comparator.comparing(Map.Entry<String, Integer>::getValue).reversed().
                         thenComparing(Map.Entry<String, Integer>::getKey));
