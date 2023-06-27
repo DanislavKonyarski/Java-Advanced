@@ -1,51 +1,44 @@
 package T4PizzaCalories;
 
 public class Dough {
-
     private String flourType;
     private String bakingTechnique;
     private double weight;
 
     public Dough(String flourType, String bakingTechnique, double weight) {
-        setFlourType(flourType);
-        setBakingTechnique(bakingTechnique);
-        setWeight(weight);
+        this.setFlourType(flourType);
+        this.setBakingTechnique(bakingTechnique);
+        this.setWeight(weight);
     }
 
     private void setFlourType(String flourType) {
-        if ("White".equals(flourType) || "Wholegrain".equals(flourType)) {
-            this.flourType = flourType;
-        } else {
-            throw new IllegalArgumentException("Invalid type of dough.");
-        }
+        ValidatorUtil.validateFlourType(flourType);
+        this.flourType = flourType;
     }
 
     private void setBakingTechnique(String bakingTechnique) {
-        if ("Crispy".equals(bakingTechnique) || "Chewy".equals(bakingTechnique) || "homemade".equals(bakingTechnique)){
-            this.bakingTechnique = bakingTechnique;
-        }else {
-            throw new IllegalArgumentException("Invalid type of dough.");
-        }
+        ValidatorUtil.validateBakingTechnique(bakingTechnique);
+        this.bakingTechnique = bakingTechnique;
     }
 
     private void setWeight(double weight) {
-        if (weight>=0&&weight<=200){
+        ValidatorUtil.validateDoughWeight(weight);
         this.weight = weight;
-        }else {
-            throw new IllegalArgumentException("Dough weight should be in the range [1..200].");
-        }
-    }
-    public double calculateCalories (){
-        double caloriesDough = 2*weight;
-        if ("White".equals(flourType)){
-            caloriesDough*=1.5;
-        }
-        if ("Crispy".equals(bakingTechnique)) {
-            caloriesDough*=0.9;
-        } else if ("Chewy".equals(bakingTechnique)) {
-            caloriesDough*=1.1;
-        }
-        return caloriesDough;
     }
 
+    public double calculateCalories() {
+        double calories = this.weight * 2;
+
+        if ("White".equalsIgnoreCase(this.flourType)) {
+            calories *= 1.5;
+        }
+
+        if ("Crispy".equalsIgnoreCase(this.bakingTechnique)) {
+            calories *= 0.9;
+        } else if ("Chewy".equalsIgnoreCase(this.bakingTechnique)) {
+            calories *= 1.1;
+        }
+
+        return calories;
+    }
 }

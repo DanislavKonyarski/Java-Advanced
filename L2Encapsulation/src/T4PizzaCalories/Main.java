@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] inputPizza = scanner.nextLine().split("\\s+");
+        String[] inputPizza = scanner.nextLine().split(" ");
         Pizza pizza;
         try {
             pizza = new Pizza(inputPizza[1], Integer.parseInt(inputPizza[2]));
@@ -21,7 +21,7 @@ public class Main {
             System.out.println(e.getMessage());
             return;
         }
-        pizza.setDought(dough);
+        pizza.setDough(dough);
         String[] topping = scanner.nextLine().split("\\s+");
         for (int i = 0; i < Integer.parseInt(inputPizza[2]); i++) {
             Topping currentTopping;
