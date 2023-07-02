@@ -2,10 +2,10 @@ package Restaurant;
 
 import java.math.BigDecimal;
 
-public class Beverages extends Product{
+public class Beverage extends Product{
     private double milliliters;
 
-    public Beverages(String name, BigDecimal price, double milliliters) {
+    public Beverage(String name, BigDecimal price, double milliliters) {
         super(name, price);
         this.milliliters = milliliters;
     }
