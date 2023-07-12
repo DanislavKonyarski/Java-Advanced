@@ -1,8 +1,9 @@
-package T1Vehicles;
+package T2VehiclesExtension;
 
-public interface Vehicles {
+public interface Transport {
     void refuel(double fuel);
     String drive(double distance);
     double getFuelQuantity();
+
 
 }
