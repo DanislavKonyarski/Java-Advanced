@@ -10,4 +10,14 @@ public class Truck extends Venicles {
         super(fuelQuantity, litersPerKm, tankCapacity);
         setLitersPerKm(litersPerKm+EXPENS_SUMMER);
     }
+    @Override
+    public void refuel(double fuel) {
+        if (fuel <= 0) {
+            throw new IllegalArgumentException("Fuel must be a positive number");
+        } else if (fuel + super.getFuelQuantity() <= super.getTankCapacity()) {
+            super.setFuelQuantity(super.getFuelQuantity()+(fuel*0.95));
+        } else {
+            throw new IllegalArgumentException("Cannot fit fuel in tank");
+        }
+    }
 }
