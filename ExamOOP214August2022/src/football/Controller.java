@@ -1,4 +1,4 @@
-package football.core;
+package football;
 
 public interface Controller {
     String addField(String fieldType, String fieldName);

@@ -1,4 +1,4 @@
-package football.core;
+package football;
 
 import football.entities.field.ArtificialTurf;
 import football.entities.field.Field;

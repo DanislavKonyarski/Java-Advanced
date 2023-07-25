@@ -1,4 +1,4 @@
-package football.core;
+package football;
 
 import football.common.Command;
 
