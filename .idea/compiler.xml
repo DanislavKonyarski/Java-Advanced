@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/ExamOOP122August2022TestUnit/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ExamOOP214August2022UnitTest" />
+        <module name="ExamOOP214August2022FootballTeam" />
+        <module name="ExamOOP122August2022TestUnit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ExamOOP214August2022FootballTeam" target="19" />
       <module name="untitled" target="19" />
     </bytecodeTargetLevel>
   </component>

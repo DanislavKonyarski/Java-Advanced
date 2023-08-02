@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="$MODULE_DIR$/ExamOOP214August2022UnitTest/FootballTeam/untitled/pom.xml" external.system.module.type="SINGLE_MODULE" external.system.module.version="223-2" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+    <output url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/target/classes" />
+    <output-test url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/target/test-classes" />
+    <content url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled">
+      <sourceFolder url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/ExamOOP214August2022FootballTeam/untitled/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.9.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.9.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.6" level="project" />
+  </component>
+</module>
